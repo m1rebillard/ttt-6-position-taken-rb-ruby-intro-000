@@ -8,5 +8,5 @@ def position_taken?(board, position)
   if(board[position - 1] == "X") || (board[position - 1] == "O")
     return true
   end
-  
+
 end
